@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/cssboot.css">
     <title>Detroix w/Bootstrap</title>
 </head>
 <body>
@@ -28,7 +29,6 @@
                                     <a href="#" class="nav-link text-body-secondary text-uppercase">help</a>
                         </nav>
                     </div>
-                    <!-- <div class="clear"></div> -->
                 </div>
             </div>
         </section>
@@ -40,7 +40,7 @@
                     </a>
                 </h1>
                 <nav class="nav">
-                    <ul class="nav-list">
+                    <ul class="nav-list text-uppercase">
                         <li class="nav-item d-inline">
                             <a href="" class="nav-link d-inline">home</a>
                         </li>
@@ -58,7 +58,6 @@
                         </li>
                     </ul>
                 </nav>
-                <!-- <div class="clear"></div> -->
             </div>
         </section>
     </header>
@@ -70,46 +69,42 @@
                     <div class="slider" id="slider1"></div>
                     <div class="slider" id="slider2"></div>
                     <div class="slider" id="slider3"></div>
-                    <!-- <div class="clear"></div> -->
                 </div>
             </div>
         </section>
         <section class="section content-section">
             <div class="container">
-                <div class="content-box">
-                    <div class="content">
-                        <h2 class="content-h2">smart</h2>
+                <div class="row m-5">
+                    <div class="content-box col-lg-4">
+                        <h2 class="content-h2 text-uppercase">smart</h2>
                         <img src="images/smart.jpg" alt="Three puzzle pieces" class="content-img">
                         <p class="content-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, dignissimos quidem consectetur excepturi odit deleniti optio labore aliquid, distinctio harum voluptatem neque repudiandae error omnis! Tempore, perferendis.</p>
                         <button class="more-btn" id="moreBtn1">more</button>
                     </div>
-                </div>
-                <div class="content-box">
-                    <div class="content">
-                        <h2 class="content-h2">strong</h2>
+                    <div class="content-box col-lg-4">
+                        <h2 class="content-h2 text-uppercase">strong</h2>
                         <img src="images/strong.jpg" alt="A hand holding a small plant" class="content-img">
                         <p class="content-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, dignissimos quidem consectetur excepturi odit deleniti optio labore aliquid, distinctio harum voluptatem neque repudiandae error omnis! Tempore, perferendis.</p>
                         <button class="more-btn" id="moreBtn2">more</button>
                     </div>
-                </div>
-                <div class="content-box">
-                    <div class="content">
-                        <h2 class="content-h2">stable</h2>
+                    <div class="content-box col-lg-4">
+                        <h2 class="content-h2 text-uppercase">stable</h2>
                         <img src="images/stable.jpg" alt="A maze diagram" class="content-img">
                         <p class="content-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, dignissimos quidem consectetur excepturi odit deleniti optio labore aliquid, distinctio harum voluptatem neque repudiandae error omnis! Tempore, perferendis.</p>
                         <button class="more-btn" id="moreBtn3">more</button>
                     </div>
+                    <!-- <div class="clear"></div> -->
                 </div>
-                <!-- <div class="clear"></div> -->
             </div>
         </section>
     </main>
     <footer class="footer" id="footer">
         <section class="section top-section">
-            <div class="container">
-                <div class="footer-div services-div">
-                    <div class="box">
-                        <h2 class="footer-h2">services</h2>
+            <div class="container m-t-5">
+                <div class="row">
+                    <!-- <div class="footer-div services-div">  [this is the original above] -->
+                    <div class="box col-lg-4" id="serveBox">
+                        <h2 class="footer-h2 text-uppercase">services</h2>
                         <ul class="services-list">
                             <li class="services-item">
                                 <a href="#" class="services-link">Lorem ipsum dolor sit.</a>
@@ -138,11 +133,9 @@
                         </ul>
                         <button class="more-btn" id="moreBtn4">more</button>
                     </div>
-                </div>
-                <div class="footer-div opp-div">
-                    <div class="box">
-
-                        <h2 class="footer-h2">opportunities</h2>
+                    <!-- <div class="footer-div opp-div"> -->
+                    <div class="box col-lg-4" id="oppBox">
+                        <h2 class="footer-h2 text-uppercase">opportunities</h2>
                         <ul class="opp-list">
                             <li class="opp-item">
                                 <h3 class="footer-h3">Lorem ipsum dolor sit.</h3>
@@ -155,11 +148,9 @@
                         </ul>
                         <button class="more-btn" id="moreBtn5">more</button>
                     </div>
-                </div>
-                <div class="footer-div news-div">
-                    <div class="box">
-
-                        <h2 class="footer-h2">news</h2>
+                        <!-- <div class="footer-div news-div"> -->
+                    <div class="box col-lg-4" id="newsBox">
+                        <h2 class="footer-h2 text-uppercase">news</h2>
                         <ul class="news-list">
                             <li class="news-item">
                                 <div class="date-div" id="date1">
@@ -170,7 +161,6 @@
                                     <h3 class="footer-h3">Lorem, ipsum dolor.</h3>
                                     <p class="news-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, doloremque.</p>
                                 </div>
-                                <!-- <div class="clear"></div> -->
                             </li>
                             <li class="news-item">
                                 <div class="date-div" id="date2">
@@ -181,7 +171,6 @@
                                     <h3 class="footer-h3">Lorem, ipsum dolor.</h3>
                                     <p class="news-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, doloremque.</p>
                                 </div>
-                                <!-- <div class="clear"></div> -->
                             </li>
                             <li class="news-item">
                                 <div class="date-div" id="date3">
@@ -192,13 +181,11 @@
                                     <h3 class="footer-h3">Lorem, ipsum dolor.</h3>
                                     <p class="news-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, doloremque.</p>
                                 </div>
-                                <!-- <div class="clear"></div> -->
                             </li>
                         </ul>
                         <button class="more-btn" id="moreBtn6">more</button>
                     </div>
                 </div>
-                <!-- <div class="clear"></div> -->
             </div>
         </section>
         <section class="section bottom-section">
