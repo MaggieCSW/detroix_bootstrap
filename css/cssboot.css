@@ -13,7 +13,7 @@
         var(--bottomLtBl),
         var(--bottomSec)
         40%; */
-    --font: 'Lora', serif;
+    /* --font: 'Lora', serif; */
 }
 
 * {box-sizing: border-box;}
@@ -29,15 +29,50 @@ a {
     text-decoration: none;
 }
 
-h3, ul, li {
+/* h3, ul, li {
     margin: 0;
-}
+} */
 
-.inner {
+/* .inner {
     margin: 0 auto;
     width: 90%;   
-}
+} */
 
 .top-header {
+    /* height: 40px; */
+    background-color: var(--bottomSec);
+}
+
+.nav-link, .th-link {
+    font-size: 12px;
+    color: white;
+}
+
+.nav-link
+
+.nav-list {
+    /* padding-top: 40px; */
+    border: 2px solid red;
+}
+
+
+
+
+
+
+
+
+.top-section {
+    padding-top: 40px;
+    padding-bottom: 55px;
+    color: whitesmoke;
     background-color: var(--blue);
+    border: 2px solid green;
+}
+
+.bottom-section {
+    padding-top: 15px;
+    padding-bottom: 40px;
+    background-color: var(--bottomSec);
+    border: 2px solid red;
 }

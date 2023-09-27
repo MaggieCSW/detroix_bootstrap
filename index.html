@@ -16,48 +16,56 @@
         <section class="section top-header" id="topHeader">
             <div class="container">
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col-4">
                         <p class="th-text uppercase">
-                            <a href="#" class="th-link text-body-secondary">www.demolink.org</a>
+                            <a href="#" class="th-link text-uppercase">www.demolink.org</a>
                         </p>
                     </div>
-                    <div class="col-6">
-                        <nav class="nav top-nav" id="topNav">
-                                    <a href="#" class="nav-link text-body-secondary text-uppercase">support</a>          
-                                    <a href="#" class="nav-link text-body-secondary text-uppercase">faqs</a>
-                                    <a href="#" class="nav-link text-body-secondary text-uppercase">sitemap</a>                   
-                                    <a href="#" class="nav-link text-body-secondary text-uppercase">help</a>
+                    <div class="col-8">
+                        <nav class="nav top-nav justify-content-end" id="topNav">
+                            <a href="#" class="nav-link text-uppercase">support</a>          
+                            <a href="#" class="nav-link text-uppercase">faqs</a>
+                            <a href="#" class="nav-link text-uppercase">sitemap</a>                   
+                            <a href="#" class="nav-link text-uppercase">help</a>
                         </nav>
                     </div>
                 </div>
             </div>
         </section>
         <section class="section bottom-header">
-            <div class="container d-flex justify-content-between">
-                <h1 class="logo">
-                    <a href="index.html" class="logo-link">
-                        <img src="images/logo.jpg" alt="Detroix logo" class="logo-img">
-                    </a>
-                </h1>
-                <nav class="nav">
-                    <ul class="nav-list text-uppercase">
-                        <li class="nav-item d-inline">
-                            <a href="" class="nav-link d-inline">home</a>
-                        </li>
-                        <li class="nav-item d-inline">
-                            <a href="" class="nav-link d-inline">about</a>
-                        </li>
-                        <li class="nav-item d-inline">
-                            <a href="" class="nav-link d-inline">services</a>
-                        </li>
-                        <li class="nav-item d-inline">
-                            <a href="" class="nav-link d-inline">faqs</a>
-                        </li>
-                        <li class="nav-item d-inline">
-                            <a href="" class="nav-link d-inline">contacts</a>
-                        </li>
-                    </ul>
-                </nav>
+            <div class="container">
+                <div class="row">
+                    <nav class="navbar navbar-expand-lg">
+                            
+                        <h1 class="logo">
+                            <a href="index.html" class="logo-link">
+                                <img src="images/logo.jpg" alt="Detroix logo" class="logo-img">
+                            </a>
+                        </h1>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                <a class="nav-link active" href="#" class="nav-link">home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#" class="nav-link">about</a>
+                                </li>                            
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#" class="nav-link">services</a>
+                                </li>                         
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#" class="nav-link">faqs</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#" class="nav-link">contacts</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
             </div>
         </section>
     </header>
@@ -74,34 +82,33 @@
         </section>
         <section class="section content-section">
             <div class="container">
-                <div class="row m-5">
-                    <div class="content-box col-lg-4">
+                <div class="row">
+                    <div class="content-box col-lg-4 mt-5">
                         <h2 class="content-h2 text-uppercase">smart</h2>
                         <img src="images/smart.jpg" alt="Three puzzle pieces" class="content-img">
                         <p class="content-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, dignissimos quidem consectetur excepturi odit deleniti optio labore aliquid, distinctio harum voluptatem neque repudiandae error omnis! Tempore, perferendis.</p>
                         <button class="more-btn" id="moreBtn1">more</button>
                     </div>
-                    <div class="content-box col-lg-4">
+                    <div class="content-box col-lg-4 mt-5">
                         <h2 class="content-h2 text-uppercase">strong</h2>
                         <img src="images/strong.jpg" alt="A hand holding a small plant" class="content-img">
                         <p class="content-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, dignissimos quidem consectetur excepturi odit deleniti optio labore aliquid, distinctio harum voluptatem neque repudiandae error omnis! Tempore, perferendis.</p>
                         <button class="more-btn" id="moreBtn2">more</button>
                     </div>
-                    <div class="content-box col-lg-4">
+                    <div class="content-box col-lg-4 mt-5">
                         <h2 class="content-h2 text-uppercase">stable</h2>
                         <img src="images/stable.jpg" alt="A maze diagram" class="content-img">
                         <p class="content-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, dignissimos quidem consectetur excepturi odit deleniti optio labore aliquid, distinctio harum voluptatem neque repudiandae error omnis! Tempore, perferendis.</p>
                         <button class="more-btn" id="moreBtn3">more</button>
                     </div>
-                    <!-- <div class="clear"></div> -->
                 </div>
             </div>
         </section>
     </main>
-    <footer class="footer" id="footer">
+    <footer class="footer" id="footerDiv">
         <section class="section top-section">
             <div class="container m-t-5">
-                <div class="row">
+                <div class="row" id="">
                     <!-- <div class="footer-div services-div">  [this is the original above] -->
                     <div class="box col-lg-4" id="serveBox">
                         <h2 class="footer-h2 text-uppercase">services</h2>
